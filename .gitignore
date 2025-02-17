@@ -83,3 +83,14 @@ next-env.d.ts
 # Additional ignored files
 .eslintrc.json
 components.json
+
+# Ignoring specified files and directories
+README.md
+next.config.ts
+package-lock.json
+package.json
+postcss.config.js
+postcss.config.mjs
+tailwind.config.js
+tailwind.config.ts
+tsconfig.json
