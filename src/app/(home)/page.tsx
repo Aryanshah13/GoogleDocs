@@ -11,7 +11,7 @@ const Home = () => {
     results,
           status,
           loadMore 
-        } = usePaginatedQuery(api.documents.get, {}, { initialNumItems: 5});
+        } = usePaginatedQuery(api.documents.get, {}, { initialNumItems: 5 });
 
 
   return (
